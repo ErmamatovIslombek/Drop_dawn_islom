@@ -1,0 +1,224 @@
+:root {
+    --yashil: #2f4f4f;
+    --oq: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    padding: 0 40px;
+    background-color: var(--yashil);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-size: 33px;
+}
+
+a {
+    color: var(--oq);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.header__nav {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__navlink {
+    padding: 25px 15px;
+    position: relative;
+}
+
+.header__navlink:hover {
+    background-color: var(--oq);
+    color: var(--yashil);
+}
+
+.header__drop-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    color: var(--yashil);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--oq);
+    border: 1.3px solid var(--yashil);
+    border-top: none;
+}
+
+.comp:hover > .header__drop-list {
+    display: flex;
+}
+
+.header__drop-link {
+    padding: 10px 20px;
+}
+
+.header__drop-link:hover {
+    background-color: var(--yashil);
+    color: var(--oq);
+}
+
+.header__innerlist {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 32.5%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--oq);
+    border: 1.3px solid var(--yashil);
+    color: var(--yashil);
+}
+
+.header__inneriteam {
+    padding: 10px 20px;
+}
+
+.header__inneriteam:hover {
+    background-color: var(--yashil);
+    color: var(--oq);
+}
+
+.amazon:hover > .header__innerlist {
+    display: flex;
+}
+
+.shop__innerlist {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: -1%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--oq);
+    border: 1.3px solid var(--yashil);
+    color: var(--yashil);
+}
+
+.shop__inneriteam {
+    padding: 10px 20px;
+}
+
+.shop__inneriteam:hover {
+    background-color: var(--yashil);
+    color: var(--oq);
+}
+
+.shop:hover > .shop__innerlist{
+    display: flex;
+}
+
+
+.mic__innerlist {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 66.9%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--oq);
+    border: 1.3px solid var(--yashil);
+    color: var(--yashil);
+}
+
+.mic__inneriteam {
+    padding: 10px 20px;
+}
+
+.mic__inneriteam:hover {
+    background-color: var(--yashil);
+    color: var(--oq);
+}
+
+.mic:hover > .mic__innerlist{
+    display: flex;
+}
+
+.srv__innerlist {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 32.5%;
+    margin: 0;
+    padding: 0;
+    width: 180px;
+    list-style: none;
+    background-color: var(--oq);
+    border: 1.3px solid var(--yashil);
+    color: var(--yashil);
+}
+
+.srv__inneriteam {
+    padding: 10px 20px;
+}
+
+.srv__inneriteam:hover {
+    background-color: var(--yashil);
+    color: var(--oq);
+}
+
+.srv:hover > .srv__innerlist{
+    display: flex;
+}
+
+.sys__innerlist {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    left: 100%;
+    top: 66.2%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--oq);
+    border: 1.3px solid var(--yashil);
+    color: var(--yashil);
+}
+
+.sys__inneriteam {
+    padding: 10px 20px;
+}
+
+.sys__inneriteam:hover {
+    background-color: var(--yashil);
+    color: var(--oq);
+}
+
+.sys:hover > .sys__innerlist{
+    display: flex;
+}
+
+.header__signup {
+    padding: 10px 13px;
+    background-color: var(--oq);
+    color: var(--yashil);
+    border-radius: 10px;
+}
+
